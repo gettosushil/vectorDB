@@ -1,0 +1,29 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+venv/
+pinecone_env/
+
+# Secrets (Pinecone and other hosted APIs)
+.env
+.env.*
+!.env.example
+
+# Secrets (Pinecone and other hosted APIs)
+.env
+.env.*
+!.env.example
+
+# Local vector store files — keep folders, not binaries
+**/*.db
+**/*.db-journal
+chroma/data/**
+!chroma/data/.gitkeep
+annoy/data/**
+!annoy/data/.gitkeep
+sqlite/data/**
+!sqlite/data/.gitkeep
+pinecone/data/**
+!pinecone/data/.gitkeep
