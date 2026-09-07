@@ -1,7 +1,7 @@
 # Pinecone
 
-Hosted vector index. Do not put API keys in notebooks.
+Hosted vector index. Do not commit real API keys.
 
-1. Copy `.env.example` to `.env` and fill in `PINECONE_API_KEY`.
-2. `pip install -r requirements.txt`
-3. Add notebooks under `notebooks/`.
+- `pinecone/.env` in git is **dummy**. Copy it to `.env.local` and put your real key there.
+- Install: `pip install -r requirements.txt`
+- Notebooks: `notebooks/`
